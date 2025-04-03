@@ -14,6 +14,9 @@ import twelvefold.better_combat.config.ModConfig;
 @Mixin({ Item.class })
 public abstract class MixinItem
 {
+    static {
+        System.out.println("Mixin injected successfully");
+    }
     @Inject(method = { "canDisableShield" }, at = { @At("HEAD") }, cancellable = true, remap = false)
     private void inject_canDisableShield(final CallbackInfoReturnable<Boolean> ci) {
         if (ModConfig.modifyShield) {

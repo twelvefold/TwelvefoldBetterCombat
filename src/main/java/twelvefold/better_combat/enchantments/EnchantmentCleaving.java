@@ -11,7 +11,7 @@ import net.minecraft.init.Enchantments;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import twelvefold.better_combat.TFBetterCombat;
-import twelvefold.better_combat.misc.IShieldBreaker;
+import twelvefold.better_combat.api.IShieldBreaker;
 
 public class EnchantmentCleaving extends Enchantment
 {

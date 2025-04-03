@@ -25,8 +25,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import twelvefold.better_combat.TFBetterCombat;
 import twelvefold.better_combat.config.ModConfig;
-import twelvefold.better_combat.misc.IEntityLiving;
-import twelvefold.better_combat.misc.IShieldBreaker;
+import twelvefold.better_combat.api.IEntityLiving;
+import twelvefold.better_combat.api.IShieldBreaker;
 import twelvefold.better_combat.misc.MiscUtils;
 
 @Mod.EventBusSubscriber(modid = TFBetterCombat.MODID)

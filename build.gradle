@@ -4,10 +4,10 @@ plugins {
     id 'net.minecraftforge.gradle' version "${forge_gradle_version}"
     id 'org.spongepowered.mixin' version "${mixin_gradle_version}"
 }
-
+def mod_version=String.format("%x",System.currentTimeMillis())
 version = mod_version
 group = mod_id
-base.archivesName = mod_name
+base.archivesName = mod_id
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 

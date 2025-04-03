@@ -10,7 +10,7 @@ import twelvefold.twelvefoldbooter.TwelvefoldRegistryAPI;
 
 import java.io.File;
 import java.util.Map;
-
+@IFMLLoadingPlugin.MCVersion("1.12.2")
 public class TFBetterCombatPlugin implements IFMLLoadingPlugin
 {
     public TFBetterCombatPlugin()

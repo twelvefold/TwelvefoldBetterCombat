@@ -2,7 +2,7 @@
 
 //Decompiled by Procyon!
 
-package twelvefold.better_combat.misc;
+package twelvefold.better_combat.api;
 
 public interface IEntityLiving
 {
