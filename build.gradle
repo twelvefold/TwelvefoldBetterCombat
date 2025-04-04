@@ -55,7 +55,7 @@ dependencies {
     implementation "io.github.llamalad7:mixinextras-common:${mixin_extras_version}"
     annotationProcessor "io.github.llamalad7:mixinextras-common:${mixin_extras_version}"
 
-    implementation fg.deobf("curse.maven:twelvefoldbooter-${twelvefoldbooter_version}")
+    implementation files("./libs/`TwelvefoldBooter-195ff2700da.jar")
 	
     //implementation fg.deobf("curse.maven:jei-${jei_version}")
 }

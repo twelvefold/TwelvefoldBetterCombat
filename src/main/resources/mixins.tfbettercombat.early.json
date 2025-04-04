@@ -9,7 +9,9 @@
     "MixinHoe",
     "MixinItem",
     "MixinLivingBase",
+    "MixinMob",
     "MixinPickaxe",
+    "MixinPlayer",
     "MixinPlayerMP",
     "MixinSpade",
     "MixinSword"

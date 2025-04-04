@@ -6,7 +6,7 @@ package twelvefold.better_combat.core;
 
 import twelvefold.better_combat.TFBetterCombat;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
-import twelvefold.twelvefoldbooter.TwelvefoldRegistryAPI;
+import twelvefold.twelvefoldbooter.api.TwelvefoldRegistryAPI;
 
 import java.io.File;
 import java.util.Map;
