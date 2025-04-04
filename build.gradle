@@ -4,10 +4,10 @@ plugins {
     id 'net.minecraftforge.gradle' version "${forge_gradle_version}"
     id 'org.spongepowered.mixin' version "${mixin_gradle_version}"
 }
-
+def mod_version=String.format("%x",System.currentTimeMillis())
 version = mod_version
 group = mod_id
-base.archivesName = mod_name
+base.archivesName = mod_id
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
@@ -55,7 +55,7 @@ dependencies {
     implementation "io.github.llamalad7:mixinextras-common:${mixin_extras_version}"
     annotationProcessor "io.github.llamalad7:mixinextras-common:${mixin_extras_version}"
 
-    implementation fg.deobf("curse.maven:twelvefoldbooter-${twelvefoldbooter_version}")
+    implementation files("./libs/`TwelvefoldBooter-195ff2700da.jar")
 	
     //implementation fg.deobf("curse.maven:jei-${jei_version}")
 }

@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import twelvefold.better_combat.config.ModConfig;
 import twelvefold.better_combat.enchantments.EnchantmentCleaving;
-import twelvefold.better_combat.misc.IShieldBreaker;
+import twelvefold.better_combat.api.IShieldBreaker;
 import twelvefold.better_combat.misc.MiscUtils;
 
 import java.util.Set;

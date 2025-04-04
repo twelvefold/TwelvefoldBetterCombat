@@ -1,6 +1,7 @@
 {
   "package": "twelvefold.better_combat.core.mixins",
   "refmap": "mixins.tfbettercombat.refmap.json",
+  "target": "@env(DEFAULT)",
   "minVersion": "0.7.11",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
@@ -8,7 +9,9 @@
     "MixinHoe",
     "MixinItem",
     "MixinLivingBase",
+    "MixinMob",
     "MixinPickaxe",
+    "MixinPlayer",
     "MixinPlayerMP",
     "MixinSpade",
     "MixinSword"

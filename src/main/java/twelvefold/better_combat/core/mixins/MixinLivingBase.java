@@ -11,8 +11,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import twelvefold.better_combat.config.ModConfig;
-import twelvefold.better_combat.misc.IEntityLiving;
+import twelvefold.better_combat.api.IEntityLiving;
 import twelvefold.better_combat.misc.MiscUtils;
 
 @Mixin({ EntityLivingBase.class })
